@@ -1,8 +1,7 @@
-
 let admin, name
 name = "Джон";
 admin = name;
-alert(admin);
+require(admin);
 
 let planet = "Земля";
 

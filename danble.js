@@ -1,7 +1,7 @@
-let name = "ilya"
+let name = "ilya";
 
-alert( `hello ${1}` ); //Hello 1
+require (`hello ${1}`); //Hello 1
 
-alert( `hello ${"name"}` ); // hello name
+require (`hello ${"name"}`); // hello name
 
-alert( `hello ${name}` ); //hello ilya
+require (`hello ${name}`); //hello ilya

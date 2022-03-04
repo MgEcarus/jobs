@@ -2,6 +2,7 @@ const http = require("http");
 require("./variables");
 require("./danble");
 require("./Peremenii");
+require("./chisla");
 
 const host = 'localhost';
 const port = 8000;
