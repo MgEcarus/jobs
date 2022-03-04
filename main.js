@@ -1,9 +1,9 @@
 const http = require("http");
 require("./variables");
-require("./dannyye");
-require("./Peremenii");
-require("./chisla"); 
-require("./operatorSravnenie");
+("./dannyye");
+("./Peremenii");
+("./chisla"); 
+("./operatorSravnenie");
 
 const host = 'localhost';
 const port = 8000;
