@@ -1,5 +1,9 @@
 const http = require("http");
 require("./variables");
+require("./dannyye");
+require("./Peremenii");
+require("./chisla"); 
+require("./operatorSravnenie");
 
 let message = "Hello World!";
 http.createServer(function(request,response){
