@@ -5,6 +5,7 @@ require("./variables");
 ("./chisla"); 
 ("./operatorSravnenie");
 ("./vetvi");
+("./logik");
 
 const host = 'localhost';
 const port = 8000;

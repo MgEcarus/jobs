@@ -8,7 +8,7 @@ if ("0") {
     require('верно');
 } else {
       require('Не знаете? ECMAScript!');
-  }
+}
 
   let age = prompt ('число', 0);
 
@@ -20,3 +20,9 @@ if ("0") {
       require('0')
   }
 
+  let resultma = (a + b < 4) ? 'мало' : 'много';
+
+  let message = ( login == 'Сотрудник') ? 'Привет' :
+  (login == 'Директор') ? 'Здравствуйте' :
+  (login == '') ? 'нет логина' :
+  message ;
