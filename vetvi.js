@@ -1,28 +1,29 @@
 if ("0") {
-    alert( 'Привет' ); // true
+    console.log( 'Привет' ); // true
   }
 
-  let company = prompt('какая компания создала javascript?', '');
+  let company = ('какая компания создала javascript?', '');
 
   if (company == 'ECMAScript') {
-    require('верно');
+      console.log('верно');
 } else {
-      require('Не знаете? ECMAScript!');
+      console.log('Не знаете? ECMAScript!');
 }
 
-  let age = prompt ('число', 0);
+  let age = ('число', 0);
 
  if (age > 0) {
-      require('1')
+      console.log('1')
 }else if (age < 0) {
-      require('-1')
+      console.log('-1')
 }else {
-      require('0')
+      console.log('0')
   }
 
-  let resultma = (a + b < 4) ? 'мало' : 'много';
+  let result = (1 + 2 < 4) ? 'Мало' : 'Много';
 
-  let message = ( login == 'Сотрудник') ? 'Привет' :
-  (login == 'Директор') ? 'Здравствуйте' :
-  (login == '') ? 'нет логина' :
-  message ;
+  let login = ('Кто вы?');
+  let message = (login == 'сотрудник')? 'Привет' :
+  (login == 'Директор') ? 'Здравствуйте!' :
+  ('Нет логина') ;
+  console.log (message)

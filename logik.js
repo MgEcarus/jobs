@@ -1,37 +1,40 @@
-alert( null || 2 || undefined ); // 2
+console.log( null || 2 || undefined ); // 2
 
-alert( alert(1) || 2 || alert(3) ); // 1, 2
+console.log( console.log (1) || 2 || console.log (3) ); // 1, 
 
-alert( 1 && null && 2 ); // null
+console.log( 1 && null && 2 ); // 2
 
-alert( alert(1) && alert(2) ); // 1, undefined
+console.log( console.log (1) && console.log (2) ); // null
 
-alert( null || 2 && 3 || 4 ); // 3
+console.log( null || 2 && 3 || 4 ); // 1
 
-if ( age >= 14 && age <= 90 ) ;
+const age = ('возраст')
+if (age >= 14 && age <= 90)
+console.log ('Всё чики') ;
+else console.log ('донт');
 
-if (!(age >= 14 && age <= 90)) ;
+if (!(age >= 14 && age <= 90))
 if (age < 14 || age > 90) ;
 
-if (-1 || 0) alert( 'first' ); // -1 true
-if (-1 && 0) alert( 'second' ); // 0 false
-if (null || -1 && 1) alert( 'third' ); // 1 true 
+if (-1 || 0) console.log( 'first' ); // -1 true
+if (-1 && 0) console.log( 'second' ); // 0 false
+if (null || -1 && 1) console.log( 'third' ); // 1 true 
 
 
-  let user = prompt ("кто там?");
+  const user = ("кто там?");
 if (user === 'admin') {
 
-    let prompt = password ("Пароль") ;
+    const password = ("Пароль") ;
   if (password === 'Я главный') {
 
-  require = ('Здарвствуйте!') 
+  console.log = ('Здарвствуйте!') 
   }else if (password === '' || password === null) {
-  require = ('Отмененно') 
+  console.log = ('Отмененно') 
   }else {
-  require = ('Неверный пароль!') }
+  console.log = ('Неверный пароль!') }
 
   }else if (user === '' || user === null) {
-require = ('отмененно')
+  console.log = ('отмененно')
 }else {
-  require = ('Я вас не знаю')
-} 
+  console.log ('Я вас не знаю')
+};
