@@ -1,5 +1,5 @@
 const http = require("http");
-require("./logik");
+require("./cycles");
 
 const host = 'localhost';
 const port = 8000;

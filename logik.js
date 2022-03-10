@@ -1,20 +1,23 @@
 console.log( null || 2 || undefined ); // 2
 
-console.log( console.log (1) || 2 || console.log (3) ); // 1, 
+console.log( console.log (1) || 2 || console.log (3) ); // 1, 2
 
-console.log( 1 && null && 2 ); // 2
+console.log( 1 && null && 2 ); // null
 
-console.log( console.log (1) && console.log (2) ); // null
+console.log( console.log(1) && console.log(2) ); // 1 , inderfined
 
-console.log( null || 2 && 3 || 4 ); // 1
+console.log( null || 2 && 3 || 4 ); // 3
 
 const age = ('возраст')
 if (age >= 14 && age <= 90)
 console.log ('Всё чики') ;
 else console.log ('донт');
 
-if (!(age >= 14 && age <= 90))
-if (age < 14 || age > 90) ;
+let agee = ('agee?') ;
+if (!(agee >= 14 && agee <= 90)) 
+console.log('okey') ;
+else console.log('dont agee')
+
 
 if (-1 || 0) console.log( 'first' ); // -1 true
 if (-1 && 0) console.log( 'second' ); // 0 false
