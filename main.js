@@ -1,5 +1,5 @@
 const http = require("http");
-require("./cycles");
+require("./function");
 
 const host = 'localhost';
 const port = 8000;

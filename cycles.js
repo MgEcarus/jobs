@@ -10,12 +10,22 @@ while (++x < 5) console.log( x ); // 1 2 3 4
 let h = 0;
 while (h++ < 5) console.log( h ); // 1 2 3 4 5
 
-for (let i = 0; i < 5; i++) console.log( i ); // 0 1 2 3 4
-for (let i = 0; i < 5; ++i) console.log( i ); // 0 1 2 3 4
+for (let i = 2; i < 10; i += 2) {
+  console.log( '------' )
+  console.log( i + 2) //4 6 8 10
+  console.log( i ) //2 4 6 8
+}
 
-for (let g = 2; g <= 10; g++) {
-    if (g % 2 == 1) continue; 
-    console.log(g); // 2 4 6 8 10
+for (let i = 0; i < 5; ++i) {
+console.log( i ); // 0 1 2 3 4
+}
+
+
+for (let g = 2; g <= 10; g++) { 
+    if (g % 2 === 1){ 
+      continue;
+    }  
+    console.log(g); 
 }
 
 let b = 0; 
